@@ -6,18 +6,20 @@ export default function Catalogue() {
   return (
     <>
       <div className=" d-flex flex-column gap-4 justify-content-center align-items-center p-2 mt-5">
-        <h1 className="text-title">Welcome to GUIEX Fashion store</h1>
+        <h1 className="ttle">Welcome to GUIEX Fashion store</h1>
         <p className="home-text">
-          Momos Tula kids is an exquisite fashion brand for Kids. We make
-          bespoke kids party ball dresses and casual dresses for kids ages 0 to
-          10 years. We believe every child deserves a fairy tale!!!!
+          GUIEX is a top-tier fashion brand that creates elegant designer
+          clothing and empowers people through training. Our goal is to enhance
+          your style with our fashion and also help you grow through our
+          programs.
         </p>
       </div>
 
       <div>
         <div className="d-flex flex-row justify-content-center align-items-center gap-2">
           <h1 className="text-title bold bg-white theader text-center py-3">
-            Our catalogue
+            <hr className="text-dark" /> Our catalogue{" "}
+            <hr className="text-dark" />
           </h1>
         </div>
 

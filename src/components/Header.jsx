@@ -3,7 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import { useState } from "react";
-import logo from "../assets/images/guiexlogo1.jpeg"; // Assuming the path is correct
+import logo from "../assets/images/logg.png"; // Assuming the path is correct
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Heart, Search, ShoppingBag } from "react-feather";

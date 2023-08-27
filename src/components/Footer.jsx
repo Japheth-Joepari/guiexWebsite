@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Facebook, Instagram } from "react-feather";
-import logo from "../assets/images/guiexlogo1.jpeg"; // Assuming the path is correct
+import logo from "../assets/images/logg.png"; // Assuming the path is correct
 
 export default function Footer() {
   return (

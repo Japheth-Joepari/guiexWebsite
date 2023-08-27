@@ -6,9 +6,19 @@ export default function Subscribe() {
           Be The First To Know. <b>Subscribe</b> To Our
           <h3>Mailing List</h3>
         </h3>
-        <input type="text" placeholder="Name" required className="p-3 w-50" />
-        <input type="text" placeholder="Email" required className="p-3 w-50" />
-        <button type="submit" className="p-3 w-50 btn btn-dark">
+        <input
+          type="text"
+          placeholder="Name"
+          required
+          className="p-3 subscribe"
+        />
+        <input
+          type="text"
+          placeholder="Email"
+          required
+          className="p-3 subscribe"
+        />
+        <button type="submit" className="p-3 subscribe btn btn-dark">
           Subscribe 😀
         </button>
       </form>
