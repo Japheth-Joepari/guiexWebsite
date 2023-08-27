@@ -9,6 +9,13 @@ import academy5 from "../assets/images/academy5.jpeg";
 import academy6 from "../assets/images/academy6.jpeg";
 import academy7 from "../assets/images/academy7.jpeg";
 
+import sample1 from "../assets/images/sample1.jpeg";
+import sample2 from "../assets/images/sample2.jpeg";
+import sample3 from "../assets/images/sample3.jpeg";
+import sample4 from "../assets/images/sample4.jpeg";
+import sample5 from "../assets/images/sample5.jpeg";
+import sample6 from "../assets/images/sample6.jpeg";
+
 import academy11 from "../assets/images/academy11.jpeg";
 
 import vid from "../assets/videos/academyvideo.mp4";
@@ -16,12 +23,18 @@ import vid from "../assets/videos/academyvideo.mp4";
 export default function Academy() {
   const images = [
     academy1,
+    sample4,
     academy2,
+    sample1,
     academy3,
     academy4,
+    sample2,
     academy5,
+    sample3,
     academy6,
     academy7,
+    sample5,
+    sample6,
 
     academy11,
   ];

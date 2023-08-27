@@ -1,9 +1,9 @@
-import { ShoppingBag, ShoppingCart } from "react-feather";
+import { Heart, ShoppingBag, ShoppingCart } from "react-feather";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import { Link } from "react-router-dom";
 
-export default function Cart() {
+export default function Saved() {
   return (
     <div>
       <Header />
@@ -15,12 +15,12 @@ export default function Cart() {
           className="img-fluid"
         /> */}
         <h1 className="goudy p-5">
-          View Cart Items ? <ShoppingCart />
+          View Cart Items ? <Heart />
         </h1>
       </div>
       <div className="p-5">
         <h4 className="p-5">
-          Cart is Empty ...
+          No saved Items ...
           <Link to="/" className="text-decoration-none">
             Back to Home 😁
           </Link>

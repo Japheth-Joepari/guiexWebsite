@@ -77,9 +77,15 @@ export default function Header() {
             </Nav>
           </div>
           <div className="d-flex flex-row gap-4 d-lg-flex d-xl-flex d-md-none d-sm-none d-xs-none">
-            <Search />
-            <Heart />
-            <ShoppingBag />
+            <Link className="text-dark" to={`/shop`}>
+              <Search />
+            </Link>
+            <Link className="text-dark" to="/saved">
+              <Heart />
+            </Link>
+            <Link className="text-dark" to={`/cart`}>
+              <ShoppingBag />
+            </Link>
           </div>
         </div>
       </Navbar>
@@ -104,9 +110,9 @@ export default function Header() {
           </Link>
         </Navbar.Brand>
 
-        <div className="d-flex flex-row gap-4 d-md-flex d-sm-flex d-lg-none d-xl-none d-xs-flex">
+        <Link className="text-dark" to={`/cart`}>
           <ShoppingBag />
-        </div>
+        </Link>
       </Navbar>
 
       <Offcanvas show={showOffcanvas} onHide={handleCloseOffcanvas}>

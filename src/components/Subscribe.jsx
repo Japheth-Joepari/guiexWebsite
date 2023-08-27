@@ -9,7 +9,7 @@ export default function Subscribe() {
         <input type="text" placeholder="Name" required className="p-3 w-50" />
         <input type="text" placeholder="Email" required className="p-3 w-50" />
         <button type="submit" className="p-3 w-50 btn btn-dark">
-          Subscribe
+          Subscribe 😀
         </button>
       </form>
     </div>

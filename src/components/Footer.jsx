@@ -20,7 +20,7 @@ export default function Footer() {
             <p>Sunday: Closed</p>
           </div>
 
-          <p>Phone: +447827 514329</p>
+          <p>Phone: +234 802 5505 210 | +234 809 7859489</p>
         </div>
 
         <div>
@@ -33,9 +33,9 @@ export default function Footer() {
               {" "}
               About Us
             </Link>
-            <Link className="text-decoration-none text-black" to="/shop">
+            <Link className="text-decoration-none text-black" to="/contact">
               {" "}
-              Shop
+              Contact Us
             </Link>
             <Link className="text-decoration-none text-black" to="/academy">
               {" "}
