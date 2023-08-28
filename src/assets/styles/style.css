@@ -75,7 +75,8 @@
   .carousel {
     object-fit: cover;
     height: 250px;
-    filter: brightness(0.7);
+    filter: brightness(0.9);
+    -webkit-filter: brightness(0.9);
   }
 
   .subscribe {
