@@ -98,6 +98,12 @@
   .gap-footer {
     gap: 3rem;
   }
+
+  .carousel {
+    filter: brightness(
+      0.7
+    ); /* Adjust the brightness value to control darkness */
+  }
 }
 
 /* Large screens (e.g., desktops) */
