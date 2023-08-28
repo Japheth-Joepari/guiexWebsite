@@ -14,7 +14,7 @@ export default function AboutUs() {
           srcset=""
           className="img-fluid"
         /> */}
-        <h1 className="goudy p-5">About GUIEXFASHION</h1>
+        <h1 className="goudy p-5">About GUIEX FASHION</h1>
       </div>
       <div className="d-flex flex-col justify-content-center align-items-center">
         <img src={ceo} alt="" srcset="" className="w-50 border-3 rounded" />
@@ -83,7 +83,7 @@ export default function AboutUs() {
               className="text-decoration-none"
               href="https://dailytrust.com/passion-for-empowerment-drives-my-training-academy-gladness/"
             >
-              click to See more about me ...
+              click to See more about GUIEX FASHION ...
             </a>
           </div>
         </div>
