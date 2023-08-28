@@ -7,7 +7,7 @@ export default function Catalogue() {
   return (
     <>
       <div className=" d-flex flex-column gap-4 justify-content-center align-items-center p-2 mt-5">
-        <h1 className="ttle">Welcome to GUIEX Fashion store</h1>
+        <h1 className="ttle smmtext">Welcome to GUIEX Fashion store</h1>
         <p className="home-text">
           GUIEX is a top-tier fashion brand that creates elegant designer
           clothing and empowers people through training. Our goal is to enhance
@@ -18,7 +18,7 @@ export default function Catalogue() {
 
       <div>
         <div className="d-flex flex-column justify-content-center align-items-center gap-2">
-          <h1 className="text-title bold bg-white theader text-center py-3">
+          <h1 className="text-title smmtext bold bg-white theader text-center py-3">
             Our catalogue{" "}
           </h1>
           <hr className="text-dark cat-line" />

@@ -68,6 +68,10 @@
     gap: 2rem;
   }
 
+  .smmtext {
+    font-size: 20px;
+  }
+
   .carousel {
     object-fit: cover;
     height: 250px;
@@ -75,6 +79,10 @@
 
   .subscribe {
     width: 80%;
+  }
+
+  .cat-line {
+    bottom: 3.8rem;
   }
 }
 .ttle {
