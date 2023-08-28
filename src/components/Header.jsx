@@ -53,13 +53,7 @@ export default function Header() {
               >
                 Shop
               </Nav.Link>
-              <Nav.Link
-                as={Link}
-                to="/bridals"
-                active={location.pathname === "/bridals"}
-              >
-                Bridals & Apparels
-              </Nav.Link>
+
               <Nav.Link
                 as={Link}
                 to="/academy"
@@ -73,6 +67,14 @@ export default function Header() {
                 active={location.pathname === "/empowerment"}
               >
                 Fashion & Skill Empowerment
+              </Nav.Link>
+
+              <Nav.Link
+                as={Link}
+                to="/bridals"
+                active={location.pathname === "/bridals"}
+              >
+                Bridals & Apparels
               </Nav.Link>
             </Nav>
           </div>
@@ -158,14 +160,6 @@ export default function Header() {
             <div className="d-flex flex-column gap-3">
               <Nav.Link
                 as={Link}
-                to="/bridals"
-                active={location.pathname === "/bridals"}
-                className="text-decoration-none text-muted"
-              >
-                <b>Bridals & Apparels</b>
-              </Nav.Link>
-              <Nav.Link
-                as={Link}
                 to="/academy"
                 active={location.pathname === "/academy"}
                 className="text-decoration-none text-muted"
@@ -180,6 +174,15 @@ export default function Header() {
               >
                 <b>Fashion & Skill Empowerment</b>
               </Nav.Link>
+              <Nav.Link
+                as={Link}
+                to="/bridals"
+                active={location.pathname === "/bridals"}
+                className="text-decoration-none text-muted"
+              >
+                <b>Bridals & Apparels</b>
+              </Nav.Link>
+
               <Nav.Link
                 as={Link}
                 to="/about"
