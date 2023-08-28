@@ -18,7 +18,10 @@ export default function Catalogue() {
 
       <div>
         <div className="d-flex flex-column justify-content-center align-items-center gap-2">
-          <h1 className="text-title smmtext bold bg-white theader text-center py-3">
+          <h1
+            className="text-title smmtext bold  theader text-center py-3"
+            style={{ backgroundColor: "rgb(231, 231, 255)" }}
+          >
             Our catalogue{" "}
           </h1>
           <hr className="text-dark cat-line" />
