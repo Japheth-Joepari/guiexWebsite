@@ -111,7 +111,10 @@
 
   .carousel {
     object-fit: cover;
-    height: 600px;
+    height: 97%;
+    filter: brightness(
+      0.7
+    ); /* Adjust the brightness value to control darkness */
   }
 }
 
