@@ -17,11 +17,11 @@ export default function Catalogue() {
       </div>
 
       <div>
-        <div className="d-flex flex-row justify-content-center align-items-center gap-2">
+        <div className="d-flex flex-column justify-content-center align-items-center gap-2">
           <h1 className="text-title bold bg-white theader text-center py-3">
-            <hr className="text-dark" /> Our catalogue{" "}
-            <hr className="text-dark" />
+            Our catalogue{" "}
           </h1>
+          <hr className="text-dark cat-line" />
         </div>
 
         <div className="container">
@@ -38,11 +38,11 @@ export default function Catalogue() {
               <Card className="text-start borderless h-100 ">
                 <Card.Img
                   variant="top"
-                  src={`https://i.pinimg.com/550x/50/71/7c/50717c4ca441e941f4c92ef469097809.jpg`}
+                  src={`https://www.bellanaijaweddings.com/wp-content/uploads/2019/11/Turquoise-Collection-BellaNaija-Weddings.6-1.jpg`}
                   className="h-100 object-fit-cover"
                 />
                 <Card.Body>
-                  <Card.Title className="goudy">Men's Fashion</Card.Title>
+                  <Card.Title className="goudy">Victorian Dresses</Card.Title>
                 </Card.Body>
               </Card>
             </Link>

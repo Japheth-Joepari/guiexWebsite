@@ -24,6 +24,8 @@
 
 .theader {
   z-index: +1;
+  padding: 20px;
+  font-family: "Goudy Bookletter 1911";
 }
 
 .bold {
@@ -50,6 +52,13 @@
   outline: none;
 }
 
+.cat-line {
+  border: 0.3px solid rgb(0, 0, 0);
+  width: 80%;
+  position: relative;
+  bottom: 4.8rem;
+}
+
 /* Small screens (e.g., smartphones) */
 @media only screen and (max-width: 767px) {
   .home-text {
@@ -69,6 +78,7 @@
   }
 }
 .ttle {
+  font-family: "Goudy Bookletter 1911";
   font-weight: 600;
 }
 
