@@ -15,7 +15,7 @@ export default function Saved() {
           className="img-fluid"
         /> */}
         <h1 className="goudy p-5">
-          View Cart Items ? <Heart />
+          View Saved Items <Heart />
         </h1>
       </div>
       <div className="p-5">

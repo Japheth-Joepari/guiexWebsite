@@ -15,7 +15,7 @@ export default function Cart() {
           className="img-fluid"
         /> */}
         <h1 className="goudy p-5">
-          View Cart Items ? <ShoppingCart />
+          View Cart Items <ShoppingCart />
         </h1>
       </div>
       <div className="p-5">
