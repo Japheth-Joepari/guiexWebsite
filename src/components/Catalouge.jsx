@@ -27,7 +27,7 @@ export default function Catalogue() {
           <hr className="text-dark cat-line" />
         </div>
 
-        <div className="container">
+        <div className="container py-3">
           <Row xs={2} md={2} lg={3} className="g-4">
             <Link to="/shop" className="text-decoration-none">
               <Card className="text-start borderless h-100 ">

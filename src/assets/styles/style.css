@@ -10,6 +10,10 @@ body {
   border: none;
 }
 
+hr {
+  border: black;
+}
+
 .footerBg {
   background: #f4ece9;
 }
