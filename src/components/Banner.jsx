@@ -11,18 +11,19 @@ export default function Banner() {
         <img
           className="carousel d-block w-100"
           // Adjust the height as needed
-          src={banner2}
-          alt="First slide"
+          src={banner3}
+          alt="Second slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="carousel d-block w-100"
           // Adjust the height as needed
-          src={banner3}
-          alt="Second slide"
+          src={banner2}
+          alt="First slide"
         />
       </Carousel.Item>
+
       <Carousel.Item>
         <img
           className="carousel d-block w-100"
