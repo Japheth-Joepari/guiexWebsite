@@ -185,6 +185,24 @@ export default function Header() {
 
               <Nav.Link
                 as={Link}
+                to="/cart"
+                active={location.pathname === "/bridals"}
+                className="text-decoration-none text-muted"
+              >
+                <b>Cart</b>
+              </Nav.Link>
+
+              <Nav.Link
+                as={Link}
+                to="/saved"
+                active={location.pathname === "/bridals"}
+                className="text-decoration-none text-muted"
+              >
+                <b>Saved Items</b>
+              </Nav.Link>
+
+              <Nav.Link
+                as={Link}
                 to="/about"
                 active={location.pathname === "/about"}
                 className="text-decoration-none text-muted"

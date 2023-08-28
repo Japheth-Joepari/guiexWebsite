@@ -1,8 +1,8 @@
 // accessories
 import fas1 from "../assets/images/fas1.jpg";
 import fas2 from "../assets/images/fas2.jpg";
-import fas3 from "../assets/images/fas3.jpg";
-import fas4 from "../assets/images/fas4.jpeg";
+import fas3 from "../assets/images/0001.jpg";
+import fas4 from "../assets/images/0005.jpg";
 import fas5 from "../assets/images/fas5.jpg";
 import fas6 from "../assets/images/fas6.jpg";
 import fas7 from "../assets/images/fas7.jpg";
