@@ -56,10 +56,16 @@ export default function Footer() {
           <h4>
             <b>Follow us</b>
             <div className="d-flex gap-2">
-              <button className="btn btn-outline-dark rounded-circle p-2 btn-sm">
+              <button
+                className="btn  rounded-circle p-2 btn-sm"
+                style={{ backgroundColor: "#DCCFCA", color: "#B9A16B" }}
+              >
                 <Facebook />
               </button>
-              <button className="btn btn-outline-dark rounded-circle p-2 btn-sm">
+              <button
+                className="btn rounded-circle p-2 btn-sm"
+                style={{ backgroundColor: "#DCCFCA", color: "#B9A16B" }}
+              >
                 <Instagram />
               </button>
             </div>
