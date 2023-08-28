@@ -1,4 +1,5 @@
 import { Card, Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import fas3 from "../assets/images/fas3.jpg";
 import sample1 from "../assets/images/sample1.jpeg";
 
@@ -25,15 +26,15 @@ export default function Catalogue() {
 
         <div className="container">
           <Row xs={2} md={2} lg={3} className="g-4">
-            <Col>
+            <Link to="/shop" className="text-decoration-none">
               <Card className="text-start borderless h-100 ">
                 <Card.Img variant="top" src={sample1} />
                 <Card.Body>
                   <Card.Title className="goudy">Women's Fashion</Card.Title>
                 </Card.Body>
               </Card>
-            </Col>
-            <Col>
+            </Link>
+            <Link to="/shop" className="text-decoration-none">
               <Card className="text-start borderless h-100 ">
                 <Card.Img
                   variant="top"
@@ -44,8 +45,8 @@ export default function Catalogue() {
                   <Card.Title className="goudy">Men's Fashion</Card.Title>
                 </Card.Body>
               </Card>
-            </Col>
-            <Col>
+            </Link>
+            <Link to="/shop" className="text-decoration-none">
               <Card className="text-start borderless h-100 ">
                 <Card.Img
                   variant="top"
@@ -56,8 +57,8 @@ export default function Catalogue() {
                   <Card.Title className="goudy">Children Fashion</Card.Title>
                 </Card.Body>
               </Card>
-            </Col>
-            <Col>
+            </Link>
+            <Link to="/shop" className="text-decoration-none">
               <Card className="text-start borderless h-100 ">
                 <Card.Img
                   variant="top"
@@ -68,8 +69,8 @@ export default function Catalogue() {
                   <Card.Title className="goudy">African Print</Card.Title>
                 </Card.Body>
               </Card>
-            </Col>
-            <Col>
+            </Link>
+            <Link to="/shop" className="text-decoration-none">
               <Card className="text-start borderless h-100 ">
                 <Card.Img
                   variant="top"
@@ -80,8 +81,8 @@ export default function Catalogue() {
                   <Card.Title className="goudy">Kids Casual</Card.Title>
                 </Card.Body>
               </Card>
-            </Col>
-            <Col>
+            </Link>
+            <Link to="/shop" className="text-decoration-none">
               <Card className="text-start borderless h-100 ">
                 <Card.Img
                   variant="top"
@@ -92,7 +93,7 @@ export default function Catalogue() {
                   <Card.Title className="goudy">Newborns</Card.Title>
                 </Card.Body>
               </Card>
-            </Col>
+            </Link>
           </Row>
         </div>
       </div>
