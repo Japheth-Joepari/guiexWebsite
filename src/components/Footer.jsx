@@ -78,7 +78,7 @@ export default function Footer() {
           © Copyright 2023 GUIEX
           {/* <a href="https://joeparicodes.vercel.app">joeparicodes</a> */}
         </p>
-        <hr className="w-75" />
+        <hr className="w-75 text-dark" />
       </div>
     </div>
   );
