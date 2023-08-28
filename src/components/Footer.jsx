@@ -69,8 +69,8 @@ export default function Footer() {
 
       <div className="d-flex flex-column py-5 justify-content-center align-items-center">
         <p>
-          © Copyright 2023 GUIEX | Design by{" "}
-          <a href="https://joeparicodes.vercel.app">joeparicodes</a>
+          © Copyright 2023 GUIEX
+          {/* <a href="https://joeparicodes.vercel.app">joeparicodes</a> */}
         </p>
         <hr className="w-75" />
       </div>

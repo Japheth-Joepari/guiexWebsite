@@ -79,7 +79,7 @@
 }
 .ttle {
   font-family: "Goudy Bookletter 1911";
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 
 /* Medium screens (e.g., tablets) */
