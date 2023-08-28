@@ -83,7 +83,7 @@ export default function AboutUs() {
               className="text-decoration-none"
               href="https://dailytrust.com/passion-for-empowerment-drives-my-training-academy-gladness/"
             >
-              👆 click to See more about me ...
+              click to See more about me ...
             </a>
           </div>
         </div>
