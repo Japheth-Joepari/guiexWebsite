@@ -19,7 +19,7 @@ export default function Subscribe() {
           className="p-3 subscribe"
         />
         <button type="submit" className="p-3 subscribe btn btn-dark">
-          Subscribe 😀
+          Subscribe
         </button>
       </form>
     </div>

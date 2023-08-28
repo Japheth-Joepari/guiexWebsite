@@ -22,7 +22,7 @@ export default function Saved() {
         <h4 className="p-5">
           No saved Items ...
           <Link to="/" className="text-decoration-none">
-            Back to Home 😁
+            Back to Home
           </Link>
         </h4>
       </div>

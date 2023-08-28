@@ -14,7 +14,7 @@ export default function AboutUs() {
           srcset=""
           className="img-fluid"
         /> */}
-        <h1 className="goudy p-5">About Me ?</h1>
+        <h1 className="goudy p-5">About GUIEXFASHION</h1>
       </div>
       <div className="d-flex flex-col justify-content-center align-items-center">
         <img src={ceo} alt="" srcset="" className="w-50 border-3 rounded" />

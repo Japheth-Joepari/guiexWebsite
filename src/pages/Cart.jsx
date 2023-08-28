@@ -22,7 +22,7 @@ export default function Cart() {
         <h4 className="p-5">
           Cart is Empty ...
           <Link to="/" className="text-decoration-none">
-            Back to Home 😁
+            Back to Home
           </Link>
         </h4>
       </div>
