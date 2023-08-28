@@ -5,7 +5,7 @@ import logo from "../assets/images/logg.png"; // Assuming the path is correct
 export default function Footer() {
   return (
     <div className="container-fluid w-100 footer-bottom">
-      <div className="footerBg d-flex text-start flex-lg-row flex-xl-row flex-md-row flex-column flex-xs-col flex-sm-column justify-content-center py-3 p-5    gap-footer ">
+      <div className="bg-white d-flex text-start flex-lg-row flex-xl-row flex-md-row flex-column flex-xs-col flex-sm-column justify-content-center py-3 p-5    gap-footer ">
         <div className="">
           <img src={logo} alt="" className="footerImg" />
         </div>
