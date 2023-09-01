@@ -3,7 +3,15 @@ body {
 }
 
 .logoImg {
-  height: 2rem;
+  max-width: 4rem;
+  z-index: 999;
+  object-fit: cover;
+  position: relative;
+  top: 0.1rem;
+}
+
+.nvv {
+  height: 5rem;
 }
 
 .borderless {

@@ -3,7 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import { useState } from "react";
-import logo from "../assets/images/logg.png"; // Assuming the path is correct
+import logo from "../assets/images/logo123.png"; // Assuming the path is correct
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Heart, Search, ShoppingBag } from "react-feather";
@@ -21,7 +21,7 @@ export default function Header() {
       <Navbar
         bg="white shadow-sm"
         variant="light"
-        className="p-4 d-lg-flex d-xl-flex d-md-none d-sm-none d-xs-none d-none flex-row"
+        className="nvv p-4 d-lg-flex d-xl-flex d-md-none d-sm-none d-xs-none d-none flex-row"
       >
         <div className="d-flex flex-row justify-content-between w-100">
           <Navbar.Brand href="#home">
@@ -39,7 +39,7 @@ export default function Header() {
           </Button>
           <div>
             <Nav
-              className="me-auto"
+              className="me-auto "
               variant="underline"
               defaultActiveKey="/home"
             >
